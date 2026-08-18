@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    res/menu/menu_bottom_nav.xml
+    Menu cho BottomNavigationView trong MainActivity
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Tab 1: Trang chủ -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_nav_home"
+        android:title="Trang chủ" />
+
+    <!-- Tab 2: Lịch sử -->
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_nav_history"
+        android:title="Lịch sử" />
+
+    <!-- Tab 3: Tài khoản -->
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_nav_account"
+        android:title="Tài khoản" />
+
+</menu>
